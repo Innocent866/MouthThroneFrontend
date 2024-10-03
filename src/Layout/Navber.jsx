@@ -4,7 +4,7 @@ import Profile from "../Component/Navbar/Profile";
 import shopNavImage from "../assets/images/banner/menu-banner.jpg";
 import CartContext from "../Context/CartContext";
 import LikedContext from "../Context/LikedContext";
-import Mobilemodal from "../Component/Navbar/mobilemodal";
+import MobileModal from "../Component/Navbar/Mobilemodal";
 import Maquee from "./Maquee";
 
 const Navber = () => {
@@ -293,7 +293,7 @@ const Navber = () => {
                                 </Link>
                             </li>
                             <li>
-                            <Mobilemodal/>
+                            <MobileModal/>
                             </li>
                         </ul>
                     </div>
