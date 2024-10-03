@@ -1,0 +1,78 @@
+.custom-file-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 2px dashed #ccc;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: #f9f9f9;
+}
+
+.custom-file-input:hover {
+  border-color: #000;
+  background-color: #f1f1f1;
+}
+
+.custom-file-label {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  color: #333;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.upload-icon {
+  font-size: 30px;
+  margin-right: 10px;
+  color: #555;
+}
+
+.custom-file-label:hover .upload-icon {
+  color: #000;
+}
+
+/* Responsive for mobile */
+@media (max-width: 768px) {
+  .custom-file-label {
+    font-size: 14px;
+  }
+
+  .upload-icon {
+    font-size: 24px;
+  }
+}
+
+/* Signup page design */
+/* .signup-page-first-div{
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+.signup-page-image{
+    width: 50%;
+    height: 40rem;
+    position: fixed;
+}
+.signup-page-image img{
+    width: 100%;
+}
+
+.signup-page-field{
+    width: 50%;
+
+} */
+
+/* signin-page-field */
+@media screen and (min-width: 760px) {
+    .signup-page-field{
+        width: 50%;
+    
+    }
+    .signin-page-field{
+        width: 50%;
+    }
+}

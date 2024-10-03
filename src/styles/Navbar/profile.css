@@ -1,0 +1,41 @@
+.profile-div {
+  position: relative;
+}
+
+.profile-menu {
+  display: none;
+  position: absolute;
+  z-index: 2;
+  right: -0px;
+  top: 4rem;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 1px 10px 10px 10px #ccc;
+  list-style: none;
+  padding: 10px;
+}
+
+.profile-menu li {
+  margin: 5px 0;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.profile-menu li:hover {
+  margin-left: 10px;
+  color: #e6d6a7;
+}
+
+.profile-menu.show {
+  display: block;
+  width: 10rem;
+}
+
+.offcanvas-toggles {
+  cursor: pointer;
+}
+
+.link-profile{
+  width: 100% !important;
+  /* letter-spacing: 3px; */
+}
