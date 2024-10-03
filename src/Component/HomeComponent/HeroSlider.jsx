@@ -3,8 +3,6 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper/modules'; // Import modules directly
 import img1 from "../../assets/images/hero-slider/home-1/hero-slider-1.jpg"
 import img2 from "../../assets/images/hero-slider/home-1/hero-slider-2.jpg"
-import imgSlider1 from "../../../../../../../Pictures/mr terri1.jpg";
-import imgSlider2 from "../../../../../../../Pictures/mr terri2.jpg";
 
 const HeroSlider = () => {
     return (
@@ -24,7 +22,7 @@ const HeroSlider = () => {
                 {/* Start Hero Single Slider Item */}
                 <SwiperSlide className="hero-single-slider-item">
                     <div className="hero-slider-bg">
-                        <img src={imgSlider1} alt="" className='w-50'/>
+                        <img src={img1} alt="" />
                     </div>
                     <div className="hero-slider-wrapper">
                         <div className="container">
@@ -45,7 +43,7 @@ const HeroSlider = () => {
                 {/* Start Hero Single Slider Item */}
                 <SwiperSlide className="hero-single-slider-item">
                     <div className="hero-slider-bg">
-                        <img src={imgSlider2} alt="" className='w-50' />
+                        <img src={img2} alt="" />
                     </div>
                     <div className="hero-slider-wrapper">
                         <div className="container">
